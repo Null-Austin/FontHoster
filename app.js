@@ -11,6 +11,6 @@ app.get('/font/:font',(req,res)=>{
     })
 })
 app.listen(port,err=>{
-    if (err) return console.err(err);
+    if (err) return console.error(err);
     console.log("http://localhost:"+port)
 })
